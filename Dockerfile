@@ -1,6 +1,6 @@
 FROM php:8.2-fpm-alpine
 
-RUN apk add --no-cache nginx wget
+RUN apk add --no-cache nginx wget php8.2-pdo php8.2-pdo_mysql
 
 RUN mkdir -p /run/nginx
 
