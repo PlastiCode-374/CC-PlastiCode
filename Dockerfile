@@ -2,7 +2,7 @@ FROM php:8.2-fpm-alpine
 
 RUN set -ex \
   && apk --no-cache add \
-    mariadb-dev
+    mysql-dev
 
 RUN docker-php-ext-install pdo_mysql
 
