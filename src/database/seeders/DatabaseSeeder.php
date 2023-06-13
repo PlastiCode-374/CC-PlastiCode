@@ -21,7 +21,7 @@ class DatabaseSeeder extends Seeder
         // ]);
 
         Plastic::create([
-            'jenis_plastik' => 'PET atau PETE',
+            'jenis_plastik' => 'PET',
             'masa_pakai' => 'Berulang kali (umumnya), tetapi juga digunakan sekali pakai.',
             'tingkat_bahaya' => 'Aman',
             'detail_jenis_plastik' => 'PET atau PETE (Polyethylene Terephthalate) biasanya digunakan untuk botol air minum, botol minuman bersoda, dan wadah makanan. Kode ini mengindikasikan bahwa plastik tersebut dapat didaur ulang dan digunakan kembali.',
