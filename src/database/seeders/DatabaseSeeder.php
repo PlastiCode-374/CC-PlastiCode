@@ -68,7 +68,7 @@ class DatabaseSeeder extends Seeder
         Plastic::create([
             'jenis_plastik' => 'PS',
             'masa_pakai' => 'Sekali pakai',
-            'tingkat_bahaya' => 'Berpotensi berbahaya',
+            'tingkat_bahaya' => 'Bahaya',
             'detail_jenis_plastik' => 'PS (Polystyrene) biasanya digunakan untuk styrofoam, bungkus makanan, dan kotak berbentuk poligon. PS sulit didaur ulang.',
             'detail_masa_pakai' => 'PS sering digunakan dalam kemasan sekali pakai, seperti wadah makanan polystyrene (foam). Namun, PS juga digunakan dalam bentuk berulang kali, seperti casing CD/DVD.',
             'detail_tingkat_bahaya' => 'PS digunakan dalam styrofoam, wadah makanan, dan gelas sekali pakai. Plastik ini mengandung bahan berbahaya yang dapat bocor ke dalam makanan atau minuman. Penggunaan PS dalam kontak langsung dengan makanan sebaiknya dihindari.'
@@ -77,7 +77,7 @@ class DatabaseSeeder extends Seeder
         Plastic::create([
             'jenis_plastik' => 'Other',
             'masa_pakai' => 'Berulang kali',
-            'tingkat_bahaya' => 'Berpotensi berbahaya',
+            'tingkat_bahaya' => 'Bahaya',
             'detail_jenis_plastik' => 'Jenis plastik Other mencakup berbagai jenis plastik seperti polycarbonate (PC), polylactic acid (PLA), dan acrylic (PMMA). Jenis plastik ini seringkali sulit didaur ulang karena merupakan campuran atau jenis plastik yang tidak termasuk dalam kategori lainnya.',
             'detail_masa_pakai' => 'Jenis plastik Other umumnya digunakan dalam produk yang dirancang untuk penggunaan berulang kali, seperti botol minum bertutup kaku, perlengkapan elektronik, dan komponen otomotif. Masa pakai tergantung pada jenis dan kondisi penggunaan.',
             'detail_tingkat_bahaya' => 'Jenis plastik Other mencakup berbagai jenis plastik seperti polycarbonate (PC) yang digunakan dalam botol air dan CD, serta polylactic acid (PLA) yang digunakan dalam kemasan ramah lingkungan. Plastik dalam kategori ini memiliki variasi yang luas dan beberapa jenis dapat mengandung bahan berbahaya seperti bisphenol A (BPA). Perlu memperhatikan petunjuk penggunaan dan sumber informasi yang terpercaya.'
