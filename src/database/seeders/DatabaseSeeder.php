@@ -25,7 +25,7 @@ class DatabaseSeeder extends Seeder
             'masa_pakai' => 'Sekali Pakai',
             'tingkat_bahaya' => 'Aman',
             'detail_jenis_plastik' => 'PET atau PETE (Polyethylene Terephthalate) biasanya digunakan untuk botol air minum, botol minuman bersoda, dan wadah makanan. Kode ini mengindikasikan bahwa plastik tersebut dapat didaur ulang dan digunakan kembali.',
-            'detail_masa_pakai' => 'Botol plastik berlabel PETE diketahui aman digunakan. Meski demikian, penggunaannya hanya terbatas satu kali pakai saja. Penggunaan berulang diketahui bisa membahayakan kesehatan, sebab bahan PETE bisa larut ke dalam minuman.',
+            'detail_masa_pakai' => 'Botol plastik berlabel PET diketahui aman digunakan. Meski demikian, penggunaannya hanya terbatas satu kali pakai saja. Penggunaan berulang diketahui bisa membahayakan kesehatan, sebab bahan PETE bisa larut ke dalam minuman.',
             'detail_tingkat_bahaya' => 'PET atau PETE digunakan secara luas dalam botol minuman, kemasan makanan, dan serat tekstil. Plastik ini umumnya dianggap aman karena tidak mengandung bahan berbahaya dan memiliki tingkat daur ulang yang baik.'
         ]);
 
@@ -41,7 +41,7 @@ class DatabaseSeeder extends Seeder
         Plastic::create([
             'jenis_plastik' => 'PVC',
             'masa_pakai' => 'Sekali Pakai',
-            'tingkat_bahaya' => 'Berpotensi berbahaya',
+            'tingkat_bahaya' => 'Bahaya',
             'detail_jenis_plastik' => 'PVC (Polyvinyl Chloride) biasanya digunakan untuk pipa, tirai shower, botol obat, dan mainan anak-anak. PVC memiliki risiko kesehatan dan lingkungan yang lebih tinggi dan biasanya sulit didaur ulang.',
             'detail_masa_pakai' => 'PVC biasanya digunakan dalam produk berulang kali seperti pipa dan fitting. Namun, dalam bentuk kemasan sekali pakai, seperti blister pack atau kemasan makanan, PVC digunakan hanya sekali.',
             'detail_tingkat_bahaya' => 'PVC digunakan dalam pipa air, kabel listrik, kemasan makanan, dan barang-barang plastik lainnya. Plastik ini mengandung bahan aditif berbahaya seperti phthalate dan dioxin yang dapat berdampak negatif pada kesehatan manusia dan lingkungan. Penggunaan PVC dalam makanan dan minuman harus dihindari.'
