@@ -22,16 +22,16 @@ class DatabaseSeeder extends Seeder
 
         Plastic::create([
             'jenis_plastik' => 'PET',
-            'masa_pakai' => 'Berulang kali (umumnya), tetapi juga digunakan sekali pakai.',
+            'masa_pakai' => 'Sekali Pakai',
             'tingkat_bahaya' => 'Aman',
             'detail_jenis_plastik' => 'PET atau PETE (Polyethylene Terephthalate) biasanya digunakan untuk botol air minum, botol minuman bersoda, dan wadah makanan. Kode ini mengindikasikan bahwa plastik tersebut dapat didaur ulang dan digunakan kembali.',
-            'detail_masa_pakai' => 'PET atau PETE dirancang untuk penggunaan berulang kali, seperti botol minuman yang bisa diisi ulang. Namun, dalam praktiknya, banyak produk PET atau PETE digunakan sekali pakai. Masa pakai bergantung pada kondisi penggunaan dan perawatan yang dilakukan.',
+            'detail_masa_pakai' => 'Botol plastik berlabel PETE diketahui aman digunakan. Meski demikian, penggunaannya hanya terbatas satu kali pakai saja. Penggunaan berulang diketahui bisa membahayakan kesehatan, sebab bahan PETE bisa larut ke dalam minuman.',
             'detail_tingkat_bahaya' => 'PET atau PETE digunakan secara luas dalam botol minuman, kemasan makanan, dan serat tekstil. Plastik ini umumnya dianggap aman karena tidak mengandung bahan berbahaya dan memiliki tingkat daur ulang yang baik.'
         ]);
 
         Plastic::create([
             'jenis_plastik' => 'HDPE',
-            'masa_pakai' => 'Berulang kali',
+            'masa_pakai' => 'Berulang Kali',
             'tingkat_bahaya' => 'Aman',
             'detail_jenis_plastik' => 'HDPE (High-Density Polyethylene) biasanya digunakan untuk botol susu, botol sampo, pipa air, dan wadah makanan. HDPE juga dapat didaur ulang.',
             'detail_masa_pakai' => 'HDPE memiliki kekuatan dan ketahanan yang baik, membuatnya cocok untuk digunakan berulang kali. Botol susu, botol sampo, dan pipa air sering terbuat dari HDPE. Masa pakai tergantung pada kondisi penggunaan, perawatan, dan paparan lingkungan.',
@@ -40,7 +40,7 @@ class DatabaseSeeder extends Seeder
 
         Plastic::create([
             'jenis_plastik' => 'PVC',
-            'masa_pakai' => 'Berulang kali (terbatas) dan sekali pakai',
+            'masa_pakai' => 'Sekali Pakai',
             'tingkat_bahaya' => 'Berpotensi berbahaya',
             'detail_jenis_plastik' => 'PVC (Polyvinyl Chloride) biasanya digunakan untuk pipa, tirai shower, botol obat, dan mainan anak-anak. PVC memiliki risiko kesehatan dan lingkungan yang lebih tinggi dan biasanya sulit didaur ulang.',
             'detail_masa_pakai' => 'PVC biasanya digunakan dalam produk berulang kali seperti pipa dan fitting. Namun, dalam bentuk kemasan sekali pakai, seperti blister pack atau kemasan makanan, PVC digunakan hanya sekali.',
@@ -49,7 +49,7 @@ class DatabaseSeeder extends Seeder
 
         Plastic::create([
             'jenis_plastik' => 'LDPE',
-            'masa_pakai' => 'Berulang kali (terbatas) dan sekali pakai',
+            'masa_pakai' => 'Sekali Pakai',
             'tingkat_bahaya' => 'Aman',
             'detail_jenis_plastik' => 'LDPE (Low-Density Polyethylene) biasanya digunakan untuk kantong belanja, film pelindung, dan wadah makanan. LDPE dapat didaur ulang.',
             'detail_masa_pakai' => 'LDPE digunakan dalam berbagai produk, termasuk kantong plastik, kantong belanja, dan kemasan makanan. Masa pakai bergantung pada penggunaan dan perawatan, tetapi umumnya lebih cocok untuk digunakan sekali pakai.',
@@ -58,7 +58,7 @@ class DatabaseSeeder extends Seeder
 
         Plastic::create([
             'jenis_plastik' => 'PP',
-            'masa_pakai' => 'Berulang kali (terbatas) dan sekali pakai',
+            'masa_pakai' => 'Berulang Kali',
             'tingkat_bahaya' => 'Aman',
             'detail_jenis_plastik' => 'PP (Polypropylene) biasanya digunakan untuk botol minuman, wadah makanan, dan mainan anak-anak. PP dapat didaur ulang.',
             'detail_masa_pakai' => 'PP memiliki kekuatan yang baik dan tahan terhadap panas, sehingga sering digunakan dalam wadah makanan, botol, dan peralatan dapur. Beberapa produk PP dirancang untuk digunakan berulang kali, seperti tupperware, tetapi dalam beberapa kasus juga digunakan sekali pakai.',
@@ -67,7 +67,7 @@ class DatabaseSeeder extends Seeder
 
         Plastic::create([
             'jenis_plastik' => 'PS',
-            'masa_pakai' => 'Sekali pakai',
+            'masa_pakai' => 'Sekali Pakai',
             'tingkat_bahaya' => 'Bahaya',
             'detail_jenis_plastik' => 'PS (Polystyrene) biasanya digunakan untuk styrofoam, bungkus makanan, dan kotak berbentuk poligon. PS sulit didaur ulang.',
             'detail_masa_pakai' => 'PS sering digunakan dalam kemasan sekali pakai, seperti wadah makanan polystyrene (foam). Namun, PS juga digunakan dalam bentuk berulang kali, seperti casing CD/DVD.',
@@ -76,7 +76,7 @@ class DatabaseSeeder extends Seeder
 
         Plastic::create([
             'jenis_plastik' => 'Other',
-            'masa_pakai' => 'Berulang kali',
+            'masa_pakai' => 'Berulang Kali',
             'tingkat_bahaya' => 'Bahaya',
             'detail_jenis_plastik' => 'Jenis plastik Other mencakup berbagai jenis plastik seperti polycarbonate (PC), polylactic acid (PLA), dan acrylic (PMMA). Jenis plastik ini seringkali sulit didaur ulang karena merupakan campuran atau jenis plastik yang tidak termasuk dalam kategori lainnya.',
             'detail_masa_pakai' => 'Jenis plastik Other umumnya digunakan dalam produk yang dirancang untuk penggunaan berulang kali, seperti botol minum bertutup kaku, perlengkapan elektronik, dan komponen otomotif. Masa pakai tergantung pada jenis dan kondisi penggunaan.',
