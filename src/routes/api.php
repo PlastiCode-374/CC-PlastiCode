@@ -31,7 +31,7 @@ Route::middleware('auth:sanctum')->group(function(){
 
     // untuk update hasil dari ML nya
     Route::match(['PUT', 'PATCH'], 'history-update/{history_id}', [ImageController::class, 'update']);
-    
+
     // untuk dapetin semua history per user
     Route::get('user-histories/{user_id}', [ImageController::class, 'index']);
 

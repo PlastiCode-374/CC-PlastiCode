@@ -20,6 +20,8 @@ class ImageController extends Controller
      */
     public function store(Request $request)
     {
+        $request->headers->set('Content-Type', 'multipart/form-data');
+        
         if (!$request->hasFile('file')) {
             return response()->json([
                 'status_code' => 422,
