@@ -23,15 +23,16 @@ Route::post('login', [AuthController::class, 'login']);
 
 Route::middleware('auth:sanctum')->group(function(){
 
+    // ini untuk menyimpan image pertamakali
+    Route::post('image', [ImageController::class, 'store']);
+
     // untuk dapetin data plastik
     Route::get('plastic/{jenis_plastik}', [PlasticController::class, 'show']);
+
+    // untuk update hasil dari ML nya
+    Route::match(['PUT', 'PATCH'], 'history-update/{history_id}', [ImageController::class, 'update']);
 
     // untuk dapetin semua history per user
     Route::get('user-histories/{user_id}', [ImageController::class, 'index']);
 
-    // ini untuk menyimpan image pertamakali
-    Route::post('image', [ImageController::class, 'store']);
-
-    // untuk update hasil dari ML nya
-    Route::match(['PUT', 'PATCH'], 'history-update/{history_id}', [ImageController::class, 'update']);
 });
