@@ -6,6 +6,15 @@ API for accessing PlastiCode Apps
 
 https://plasticode-vxoopzmopq-et.a.run.app/api
 
+# Endpoint List
+
+- [Register](https://github.com/PlastiCode-374/CC-PlastiCode/edit/master/README.md#register)
+- [Login](https://github.com/PlastiCode-374/CC-PlastiCode/edit/master/README.md#login)
+- [Upload Image](https://github.com/PlastiCode-374/CC-PlastiCode/edit/master/README.md#upload-image)
+- [Jenis Plastik](https://github.com/PlastiCode-374/CC-PlastiCode/edit/master/README.md#jenis-plastik)
+- [Update History](https://github.com/PlastiCode-374/CC-PlastiCode/edit/master/README.md#update-history)
+- [User Histories](https://github.com/PlastiCode-374/CC-PlastiCode/edit/master/README.md#user-histories)
+
 ## Register
 
 - URL
