@@ -8,12 +8,12 @@ https://plasticode-vxoopzmopq-et.a.run.app/api
 
 # Endpoint List
 
-- [Register](https://github.com/PlastiCode-374/CC-PlastiCode/edit/master/README.md#register)
-- [Login](https://github.com/PlastiCode-374/CC-PlastiCode/edit/master/README.md#login)
-- [Upload Image](https://github.com/PlastiCode-374/CC-PlastiCode/edit/master/README.md#upload-image)
-- [Jenis Plastik](https://github.com/PlastiCode-374/CC-PlastiCode/edit/master/README.md#jenis-plastik)
-- [Update History](https://github.com/PlastiCode-374/CC-PlastiCode/edit/master/README.md#update-history)
-- [User Histories](https://github.com/PlastiCode-374/CC-PlastiCode/edit/master/README.md#user-histories)
+- [Register](https://github.com/PlastiCode-374/CC-PlastiCode#register)
+- [Login](https://github.com/PlastiCode-374/CC-PlastiCode#login)
+- [Upload Image](https://github.com/PlastiCode-374/CC-PlastiCode#upload-image)
+- [Jenis Plastik](https://github.com/PlastiCode-374/CC-PlastiCode#jenis-plastik)
+- [Update History](https://github.com/PlastiCode-374/CC-PlastiCode#update-history)
+- [User Histories](https://github.com/PlastiCode-374/CC-PlastiCode#user-histories)
 
 ## Register
 
