@@ -123,7 +123,8 @@ public function index(Request $request, $user_id)
         'status_code' => 404,
         'success' => false,
         'error' => true,
-        'error_message' => 'History with user ID ' . $user_id . ' not found'
+        'error_message' => 'History with user ID ' . $user_id . ' not found',
+        'histories' => $history
     ]);
 }
 }
